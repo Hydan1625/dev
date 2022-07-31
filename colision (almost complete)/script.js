@@ -8,7 +8,7 @@ let max_speed = 12;
 let circles = [];
 let squares = [];
 let copy = [];
-
+ 
 let canvas = document.getElementById('canvas');
 let ctx = canvas.getContext('2d');
 window.addEventListener('mousemove', setMousePosition, true);
